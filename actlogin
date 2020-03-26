@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	body {background-image: url("utswall.png");
+	font-family: calibri }
+</style>
+
+<body>
+<?php
+if (empty($_POST['nama']).empty($_POST['email'])){
+	header("location:kosonglogin.php");
+
+} else{
+echo "<center>";
+date_default_timezone_set("Asia/Jakarta"); 
+echo date("D, m-F-Y, g:i a")."<br>";
+echo "<br>";
+echo "<h3>Nama : ".$_POST['nama']."<br>";
+echo "<h3>Email : ".$_POST['email']."<br>";
+echo "<br>";
+echo "<br>";
+echo "<h1>Tunggu sebentar untuk menuju Website!!";}
+
+?>
+<meta http-equiv="refresh" content="2; url=http://localhost/praktikumuts/website.php">
+</body>
+</html>
