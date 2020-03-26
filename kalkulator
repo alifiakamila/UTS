@@ -1,0 +1,78 @@
+<html>
+<head>
+<style type="text/css">
+h1 { font-family: comic sans; color: black}
+p { font-family: verdana; text-decoration: bold; color: black
+ }
+body { background-image: url("utswall.png")}
+input { font-family: verdana; font-size: 16pt }
+   
+</style><style type="text/css">
+  body { padding-top: 10%;
+  padding-right: auto;
+  padding-bottom: 10%;
+  padding-left: 35%;}
+</style>
+<h1><font size="7">Kalkulator Sederhana </font></h1>
+<script text="text/javascript">
+     function tambah(){ 
+      a=eval(document.form.a.value);
+      b=eval(document.form.b.value);
+      c=a+b;
+      document.form.c.value=c; 
+       }
+</script> 
+<script text="text/javascript">
+       function kurang(){ 
+      a=(document.form.a.value);
+      b=(document.form.b.value);
+      c=a-b;
+      document.form.c.value=c; 
+       }
+</script>
+<script text="text/javascript">
+       function kali(){ 
+      a=(document.form.a.value);
+      b=(document.form.b.value);
+      c=a*b;
+      document.form.c.value=c; 
+       }
+</script> 
+<script text="text/javascript">
+       function bagi(){ 
+      a=(document.form.a.value);
+      b=(document.form.b.value);
+      c=a/b;
+      document.form.c.value=c; 
+       }
+</script> 
+ </head>
+<body>
+     <form name="form" method="POST">
+          <table>
+             <tr>
+                 <td><font size="6" align="center">Bilangan1</font></td>
+                  <td>:</td>
+                  <td><input type="text" id="a" name="a"></td>
+             </tr>  
+              <tr>
+                 <td><font size="6" align="center">Bilangan2</font></td>
+                  <td>:</td>
+                  <td><input type="text" id="b" name="b"></td>
+             </tr> 
+              <tr>
+                 <td><font size="6" align="center">Hasil</font></td>
+                  <td>:</td>
+                  <td><input type="text" id="c" name="c"></td>
+             </tr> 
+             <tr>
+                  <td><input type="button" value="+" onClick="tambah()">
+                        <input type="button" value="-" onClick="kurang()">
+                         <input type="button" value="x" onClick="kali()">
+                         <input type="button" value="/" onClick="bagi()"> 
+                         <input type="reset" name="Reset">
+             </tr>
+          </table>
+    </form>
+</body>
+</html>
