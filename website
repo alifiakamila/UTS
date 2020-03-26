@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> UTS PROMWEB </title>
+	<link rel="stylesheet" type="text/css" href="cssweb.css"> 
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo"><img src="logo.png"></div>
+			<ul>
+				<li><a href="http://localhost/praktikumuts/kalkulatorweb.php"> Kalkulator </a></li>
+				<li><a href="https://www.upnjatim.ac.id/"> Universitas </a></li>
+				<li><a href="http://sisfo.upnjatim.ac.id/"> Program Studi </a></li>
+				<li><a href="http://ilmu.upnjatim.ac.id/"> E-Learning</a></li>
+				<li><a href="http://localhost/utss/kritik.php"> Kritik dan saran </a></li>
+			</ul>
+		</div>
+		<div class="title">
+			<h2> Halo Assalamualaikum </h2>
+			<p><h2> Selamat Datang di Website Saya Selamat Menjelajah :) </h2></p>
+			<p><h2> Saya Mahasiswa UPN "VETERAN" Jawa Timur Program Studi Sistem Informasi</h2></p>
+		</div>
+	</header>
+
+</body>
+</html>
